@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.rs-box {
+  display: inline;
+}
+
+.card {
+  background-color: white;
+  border-radius: 0;
+  color: black;
+  border: none !important ;
+  box-shadow: none;
+  padding: 1rem;
+  width: 100%;
+  text-shadow: none;
+  --bs-card-border-width: 0px;
+}
+
+.card-header button {
+  width: 90%;
+  display: flex;
+  gap: 1px;
+  align-items: center;
+  padding: 1rem;
+}
+.transition-all {
+  transition: all 0.4s ease;
+}
